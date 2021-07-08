@@ -1,0 +1,44 @@
+.statsBox {
+    flex: 1;
+    cursor: pointer;
+    box-shadow: 5px 5px black ;
+    min-width: 275rem,
+  }
+  
+  .statsBox:not(:last-child) {
+    margin-right: 15px;
+  }
+  
+  .statsBox_cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .statsBox--selected {
+    border-top: 10px solid greenyellow;
+  }
+  
+  .statsBox--red {
+    border-color: red;
+  }
+  
+  .statsBox_cases--green {
+    color: lightgreen;
+  }
+  
+  .statsBox--grey {
+    border-color: grey;
+  }
+  
+  .statsBox_cases--grey {
+    color: grey;
+  }
+  
+  .statsBox_total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.9rem !important;
+    margin-top: 10px !important;
+  }
